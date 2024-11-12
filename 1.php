@@ -66,8 +66,11 @@ $config = [
 ];
 
 
-$key = "a5s5ToK5x5VilrDJX6dT4L7wZlbWTmAu";//doc81
-$tk = JWT::encode($config, $key, 'HS256');
+//Get key from:  etc/onlyoffice/documentserver/local.json
+//..... secret": { "inbox": {"string": "a5s5ToK5x5VilrDJX6dT4L7wZlbWTmAu"
+
+$jwt_key = "a5s5ToK5x5VilrDJX6dT4L7wZlbWTmAu";
+$tk = JWT::encode($config, $jwt_key, 'HS256');
 
 $config['token'] = $tk;
 
