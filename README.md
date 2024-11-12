@@ -10,7 +10,7 @@ From here you can allow collaborative work (edit files together), limit access t
 We support providing VPS DocumentServer Onlyoffice to ensure good performance, data safety and security for you if needed.
 
 
-1. Install OnlyOffice Document Server, Comunity Version:
+- Install OnlyOffice Document Server, Comunity Version:
    
 https://helpcenter.onlyoffice.com/installation/docs-community-install-script.aspx
 
@@ -20,11 +20,11 @@ wget https://download.onlyoffice.com/docs/docs-install.sh
 
 bash docs-install.sh -dp 8080
 
-3. For example, after installed:
+- For example, after installed:
    
 http://10.0.0.211:8080
 
-5. Then run this code php on webserver
+- Then run this code php on webserver
    
 For example:
 
