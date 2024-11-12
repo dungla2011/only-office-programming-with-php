@@ -49,8 +49,7 @@ $config = [
         ],
     ],
     "editorConfig" => [
-        //Chú ý call back phải trả lại http_response_code(200); echo json_encode(["error" => 0]);
-        //Để không báo lỗi
+        //This call back is used to save new file content (after changed) from DocumentServer save it to your server, and some other task if need...
         "callbackUrl" => "http://$domainAndPort/callback.php",
         "user" => [
             "id" => "$uid",
@@ -78,7 +77,7 @@ $js_config = json_encode($config, JSON_PRETTY_PRINT );
 <title>
     <?php
 
-    echo "Edit DOC: ";
+    echo "Edit DEMO";
 
     ?>
 

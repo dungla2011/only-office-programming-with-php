@@ -5,6 +5,8 @@ More Demo in: https://Zcloud.io.vn
    
 https://helpcenter.onlyoffice.com/installation/docs-community-install-script.aspx
 
+- Server requirement, Linux, about 2core, 2G Memory, 30G Disk
+
 wget https://download.onlyoffice.com/docs/docs-install.sh
 
 bash docs-install.sh -dp 8080
